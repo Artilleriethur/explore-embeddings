@@ -2,41 +2,39 @@
 
 Interaktives Jupyter-Notebook zum Erkunden von Word Embeddings (Wortvektoren) im Informatik-Unterricht.
 
-## Fuer Schueler: Notebook starten
+## Für Schüler: Notebook starten
 
-Klicke auf den folgenden Button, um das Notebook direkt im Browser zu oeffnen (kein Login noetig):
+Klicke auf den folgenden Button, um das Notebook direkt im Browser zu öffnen (kein Login nötig):
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DEIN-GITHUB-NAME/embeddings-erkunden/main?labpath=Embeddings_Erkunden.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Artilleriethur/explore-embeddings/main?urlpath=%2Fdoc%2Ftree%2FEmbeddings_Erkunden.ipynb)
 
-> **Hinweis:** Der erste Start dauert ca. 1-3 Minuten, da die Umgebung gebaut wird. Danach geht es schnell.
+> **Hinweis:** Der erste Start dauert ca. 1–3 Minuten, da die Umgebung gebaut wird. Danach geht es schnell.
 
-## Fuer Lehrkraefte: Einrichtung
+## Für Lehrkräfte: Einrichtung
 
-### Schritt 1: GitHub-Repository erstellen
+### Dateien ins Repository hochladen
 
-1. Erstelle ein neues **oeffentliches** Repository auf [github.com](https://github.com/new)
-   - Name z.B.: `embeddings-erkunden`
-   - Sichtbarkeit: **Public** (muss oeffentlich sein fuer Binder)
-2. Lade diese drei Dateien hoch:
-   - `Embeddings_Erkunden.ipynb` (das Notebook)
-   - `requirements.txt` (die Abhaengigkeiten)
-   - `README.md` (diese Datei)
+Das Repository benötigt drei Dateien:
 
-### Schritt 2: Binder-Link erstellen
+- `Embeddings_Erkunden.ipynb` — das Notebook
+- `requirements.txt` — die Abhängigkeiten (gensim)
+- `README.md` — diese Datei
 
-1. Gehe zu [mybinder.org](https://mybinder.org)
-2. Gib deine Repository-URL ein: `https://github.com/DEIN-NAME/embeddings-erkunden`
-3. Bei "Path to a notebook file": `Embeddings_Erkunden.ipynb`
-4. Klicke auf "launch" — kopiere den generierten Link
-5. Teile diesen Link mit deinen Schuelern (z.B. per QR-Code)
+### QR-Code für den Unterricht
 
-### Schritt 3 (optional): QR-Code generieren
+Für den Unterricht ist ein QR-Code praktisch. Erstelle einen unter z. B. [qr-code-generator.com](https://www.qr-code-generator.com/) mit dem Binder-Link:
 
-Fuer den Unterricht ist ein QR-Code praktisch. Erstelle einen unter z.B. [qr-code-generator.com](https://www.qr-code-generator.com/) mit dem Binder-Link.
+```
+https://mybinder.org/v2/gh/Artilleriethur/explore-embeddings/main?urlpath=%2Fdoc%2Ftree%2FEmbeddings_Erkunden.ipynb
+```
+
+### Tipp: Vorab einmal starten
+
+Binder baut beim ersten Aufruf ein Image (~1–3 Min.). Rufe den Link **vor der Stunde einmal selbst auf**, dann ist das Image gecacht und die Schüler kommen sofort rein.
 
 ## Inhalt des Notebooks
 
-1. **Aehnliche Woerter finden** — Welche Woerter liegen im Vektorraum nahe beieinander?
+1. **Ähnliche Wörter finden** — Welche Wörter liegen im Vektorraum nahe beieinander?
 2. **Wortvektor-Arithmetik** — king - man + woman = queen
-3. **Eigene Analogien testen** — Schueler experimentieren selbst
-4. **Zusatz:** Welches Wort passt nicht? / Aehnlichkeitsvergleich
+3. **Eigene Analogien testen** — Schüler experimentieren selbst
+4. **Zusatz:** Welches Wort passt nicht? / Ähnlichkeitsvergleich
